@@ -1,0 +1,19 @@
+---
+layout: page
+title: OpenViduStreaming
+permalink: /openvidustreaming/
+---
+
+<h1>Welcome to the OpenViduStreaming project page!</h1> 
+<p>In this page you can find posts about OpenViduStreaming's development.</p>
+
+{% for post in site.categories.ops %}
+    <article>
+      <h2>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    </article>
+{% endfor %}

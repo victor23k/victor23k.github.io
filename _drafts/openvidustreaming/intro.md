@@ -1,0 +1,14 @@
+---
+layout: post
+category: ops
+title: What is OpenViduStreaming
+author: Víctor Fernández
+---
+
+***
+
+OpenVidu Streaming is a fork from OpenVidu, an open source video call platform.
+
+This project was proposed as a bachelor thesis by Micael Gallego, a teacher in URJC.
+
+The final goal of this project is to add an streaming feature to OpenVidu which would allow to stream video calls in a selected format. In the process, the student (me) will work on skills, such as developing a real time web application, software testing, documentation and exploring streaming technologies.
