@@ -41,11 +41,9 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          BASE_URL: blog.viticlin.com
         run: |
           hugo \
             --minify \
-            --baseURL "${{ env.BASE_URL }}/"
       - name: Upload static site to server
         uses: appleboy/scp-action@v0.1.7
         with:
