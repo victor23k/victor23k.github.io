@@ -52,13 +52,6 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ env.BASE_URL }}/"
-
-
-  # Deployment job
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Upload static site to server
         uses: appleboy/scp-action@v0.0.1
         env:
@@ -67,5 +60,5 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
         with:
-          source: "."
+          source: "./public"
           target: "/var/www/viticlin_blog"
