@@ -5,4 +5,6 @@ date = "2024-05-03"
 author = "Víctor Fernández"
 +++
 
-I'm a software developer
+I'm a software developer, music lover and bad writer.
+
+Some of the software that I really enjoy: elixir, neovim, tmux, sway, rust.
