@@ -47,12 +47,11 @@ jobs:
             --minify \
             --baseURL "${{ env.BASE_URL }}/"
       - name: Upload static site to server
-        uses: appleboy/scp-action@v0.0.1
-        env:
-          HOST: ${{ secrets.HOST }}
-          USERNAME: ${{ secrets.USERNAME }}
-          PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.SSHKEY }}
+        uses: appleboy/scp-action@v0.1.7
         with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.SSHKEY }}
           source: "public/*"
           target: "/var/www/viticlin_blog"
