@@ -56,7 +56,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ BASE_URL }}/"
+            --baseURL "${{ env.BASE_URL }}/"
 
 
   # Deployment job
