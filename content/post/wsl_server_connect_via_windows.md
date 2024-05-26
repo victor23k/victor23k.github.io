@@ -1,8 +1,9 @@
 +++
 title = 'WSL port forwarding'
+author = 'viticlin'
 date = 2024-01-14T07:07:07+01:00
-draft = true
 tags = ["wsl"]
+summary = "Access WSL ports in devices connected to the Windows host network"
 +++
 
 # Access server in WSL through Windows network
