@@ -12,6 +12,11 @@ enableInlineShortcodes = true
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
 
+# For GitHub Pages
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
 noindex = false
 
