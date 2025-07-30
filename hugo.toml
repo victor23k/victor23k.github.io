@@ -1,6 +1,6 @@
 baseURL = 'https://blog.viticlin.com/'
 title = "Viticlin's Blog"
-theme = 'risotto'
+theme = 'PaperMod'
 author = 'Víctor Fernández'
 copyright = "Nothing here"
 pagination.pagerSize = 3
