@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.145.0
+      HUGO_VERSION: 0.148.2
       HUGO_ENVIRONMENT: production
       BASE_URL: "https://blog.viticlin.com"
     steps:
